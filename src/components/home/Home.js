@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import Logo from './Logo';
 import BackgroundParticle from './BackgroundParticle';
+import Speakers from '../speakers/Speakers';
+import Sponsors from '../sponsors/Sponsors';
+import Venue from '../venue/Venue';
 
 import './Home.css';
 
@@ -23,12 +26,19 @@ const pickBg = () => {
   };
 };
 
+const sidePanelComponents = {
+  speakers: Speakers,
+  venue: Venue,
+  sponsors: Sponsors
+}
+
 class Home extends Component {
   state = {
     bg: "#fff",
     sidePanelPos: "-70%",
-    sectionStartMargin: "10%",
-    introMessageWidth: "100%"
+    introMessageWidth: "100%",
+    panelActive: false,
+    activeContent: null
   }
 
   componentDidMount() {
@@ -46,24 +56,38 @@ class Home extends Component {
     clearInterval(this.state.intervalId);
   }
 
-  showPanel = () => {
+  showPanel = (e) => {
     this.setState({
-      sidePanelPos: 0,
-      sectionStartMargin: "7%",
+      panelActive: true,
+      activeContent: e.target.dataset.activePanel,
       introMessageWidth: "70%"
     });
   }
 
   closePanel = () => {
     this.setState({
-      sidePanelPos: "-70%",
-      sectionStartMargin: "10%",
+      panelActive: false,
       introMessageWidth: "100%"
     });
   }
 
+  showActivePanelContent() {
+    const { activeContent } = this.state;
+
+    if (activeContent) {
+      const $activeComponent = sidePanelComponents[activeContent];
+
+      return <$activeComponent />
+    }
+  }
+
   render() {
-    const { bg, sidePanelPos, sectionStartMargin, introMessageWidth } = this.state;
+    const {
+      bg,
+      panelActive,
+      activeContent,
+      introMessageWidth
+    } = this.state;
 
     return (
       <section
@@ -105,9 +129,9 @@ class Home extends Component {
 
           <section className="main__navigation">
             <nav onClick={this.showPanel}>
-              <a href="#about">About</a>
-              <a href="#venue">Venue</a>
-              <a href="#sponsors">Sponsors</a>
+              <a href="#speakers" data-active-panel="speakers">Speakers</a>
+              <a href="#venue" data-active-panel="venue">Venue</a>
+              <a href="#sponsors" data-active-panel="sponsors">Sponsors</a>
             </nav>
           </section>
         </main>
@@ -118,27 +142,15 @@ class Home extends Component {
           <i className="fa fa-facebook social-icon"></i>
         </footer>
 
-        <aside
-          className="side-panel"
-          style={{
-            right: sidePanelPos
-          }}
-        >
+        <aside className={`side-panel ${panelActive ? 'active' : ''}`}>
           <span
             className="side-panel__close-panel"
             onClick={this.closePanel}
           >
             &times;
           </span>
-          <h2 className="side-panel__header-title">
-            About
-          </h2>
-          <p className="side-panel__content">
-            React Summit is a one-day community driven event aimed at bringing
-            together frontend developers who use React/Javascript or are hoping
-            to learn more about it so as to foster deep, valuable discussions
-            around what’s new, what’s possible and best practices
-          </p>
+
+          { panelActive && this.showActivePanelContent() }
         </aside>
       </section>
     );
