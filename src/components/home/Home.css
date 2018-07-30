@@ -206,6 +206,10 @@ svg g {
   text-align: right;
 }
 
+.side-panel__header-title .fa {
+  padding-right: 10px;
+}
+
 .side-panel__content {
   width: 80%;
   margin: 0 auto;

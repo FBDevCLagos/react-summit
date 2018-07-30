@@ -41,6 +41,7 @@ class Map extends Component {
 export default () => (
   <div id="venue">
     <h2 className="side-panel__header-title">
+      <i className="fa fa-map-marker"></i>
       Venue
     </h2>
     <Map />
