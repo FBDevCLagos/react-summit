@@ -182,12 +182,12 @@ svg g {
 .side-panel {
   background-color: #fff;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   color: #282e64;
   text-align: center;
   position: fixed;
   min-height: 100%;
+  overflow: auto;
   width: 100%;
   right: -100%;
   top: 0;
@@ -202,9 +202,8 @@ svg g {
 .side-panel__close-panel {
   cursor: pointer;
   font-size: 45px;
-  position: absolute;
-  right: 40px;
-  top: 10px;
+  margin-right: 20px;
+  text-align: right;
 }
 
 .side-panel__content {
