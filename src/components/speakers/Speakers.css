@@ -11,6 +11,10 @@
     margin: 40px auto;
 }
 
+.speaker__wrapper:hover {
+    transform: scale(1.05);
+}
+
 .speaker__avatar {
     order: 1;
     width: 100%;
@@ -60,7 +64,7 @@
 @media screen and (min-width: 768px) {
     .speaker__wrapper {
         flex-direction: row;
-        margin: 10px auto;
+        margin: 20px auto;
         height: 99%;
     }
 
