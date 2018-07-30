@@ -187,7 +187,7 @@ svg g {
   color: #282e64;
   text-align: center;
   position: fixed;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   right: -100%;
   top: 0;
@@ -208,7 +208,7 @@ svg g {
 }
 
 .side-panel__content {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
