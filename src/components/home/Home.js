@@ -85,7 +85,6 @@ class Home extends Component {
     const {
       bg,
       panelActive,
-      activeContent,
       introMessageWidth
     } = this.state;
 
