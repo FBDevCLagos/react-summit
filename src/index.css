@@ -11,6 +11,11 @@
 
 html {
   line-height: 1.2;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 body {
