@@ -6,16 +6,14 @@
 }
 
 .side-panel__content.sponsors{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .sponsor__wrapper {
   display: flex;
   flex-direction: column;
   margin: 40px auto;
-  width: 50%;
+  width: 100%;
 }
 
 .sponsor__avatar {
@@ -43,4 +41,16 @@
 
 .sponsor__name {
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .side-panel__content.sponsors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sponsor__wrapper {
+    width: 50%;
+  }
 }
