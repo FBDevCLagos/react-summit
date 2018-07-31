@@ -12,8 +12,9 @@ export default () => (
     <div className="side-panel__content speakers">
       <p>Here's a list of awesome speakers you'll be expecting at React Summit 2018</p>
       {
-        speakersList.map(speaker =>
+        speakersList.map((speaker, index) =>
           <SpeakerCard
+            key={`speaker-${index}`}
             name={speaker.name}
             title={speaker.title}
             company={speaker.company}
