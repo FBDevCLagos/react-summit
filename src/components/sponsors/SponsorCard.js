@@ -4,14 +4,15 @@ export default ({
   name,
   introText,
   image,
+  url,
 }) => (
   <div className="sponsor__wrapper">
-    <div className="sponsor__avatar">
+    <a className="sponsor__avatar" target="_blank" href={url}>
       <img
         src={image}
         alt="sponsor__image"
       />
-    </div>
+    </a>
     <div className="sponsor__details">
       <h3 className="sponsor__name">{name}</h3>
       <p>{introText}</p>
