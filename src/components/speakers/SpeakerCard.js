@@ -24,10 +24,12 @@ export default ({
         <a
           className="github__icon"
           href={githubUrl}
+          target="_blank"
         />
         <a
           className="twitter__icon"
           href={twitterUrl}
+          target="_blank"
         />
       </div>
     </div>
