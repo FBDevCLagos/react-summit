@@ -1,7 +1,8 @@
 #speakers {
     height: 100vh;
-    overflow: scroll;
     margin: 10px auto;
+    overflow: scroll;
+    padding-bottom: 100px;
 }
 
 .speaker__wrapper {
@@ -12,7 +13,10 @@
 }
 
 .speaker__wrapper:hover {
-    transform: scale(1.05);
+    border: 1px solid #e4e2f4;
+    box-shadow: 0 10px 30px #efefef;
+    transform: scale(1.01);
+    -webkit-box-shadow: 0 10px 30px #efefef;
 }
 
 .speaker__avatar {
@@ -37,7 +41,7 @@
 .speaker__details {
     order: 2;
     text-align: left;
-    padding: 30px 30px;
+    padding: 30px;
     width: 100%;
 }
 
@@ -65,7 +69,6 @@
     .speaker__wrapper {
         flex-direction: row;
         margin: 20px auto;
-        height: 99%;
     }
 
     .speaker__avatar {
