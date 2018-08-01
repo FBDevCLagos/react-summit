@@ -1,0 +1,28 @@
+.timelines {
+  border: 1px solid #282e64;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.timeline {
+  border-right: 3px solid #282e64;
+  border-left: 3px solid #282e64;
+  margin: 0;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.timeline.active {
+  background-color: #282e64;
+  color: #fff;
+}
+
+.events {
+  display: none;
+}
+
+.events.active {
+  display: block;
+}
