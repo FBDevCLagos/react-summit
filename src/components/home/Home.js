@@ -5,6 +5,7 @@ import BackgroundParticle from './BackgroundParticle';
 import Speakers from '../speakers/Speakers';
 import Sponsors from '../sponsors/Sponsors';
 import Venue from '../venue/Venue';
+import Schedule from '../schedule/Schedule';
 
 import './Home.css';
 
@@ -29,7 +30,8 @@ const pickBg = () => {
 const sidePanelComponents = {
   speakers: Speakers,
   venue: Venue,
-  sponsors: Sponsors
+  sponsors: Sponsors,
+  schedule: Schedule
 }
 
 class Home extends Component {
@@ -131,6 +133,7 @@ class Home extends Component {
               <a href="#speakers" data-active-panel="speakers">Speakers</a>
               <a href="#venue" data-active-panel="venue">Venue</a>
               <a href="#sponsors" data-active-panel="sponsors">Sponsors</a>
+              <a href="#schedule" data-active-panel="schedule">Schedule</a>
             </nav>
           </section>
         </main>
