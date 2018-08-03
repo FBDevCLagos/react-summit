@@ -1,29 +1,20 @@
 export const speakersList = [
   {
-    name: "Ibekwe Laster",
-    title: "Software Engineer",
-    company: "Hooli",
-    introText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "http://cdn02.cdn.justjaredjr.com/wp-content/uploads/headlines/2017/05/despicable-me-3-clip-minions-stage.jpg",
+    name: "Awesome Speaker",
+    title: "Front-end Engineer",
+    company: "Company",
+    introText: "All round nice guy :)",
+    image: "http://financialspectrum.com.au/wp-content/uploads/Headshot-Placeholder.png",
     githubUrl: "#",
     twitterUrl: "#",
   },
   {
-    name: "Jane Kayiwa",
+    name: "Awesome Speaker",
     title: "Software Engineer",
-    company: "Harvana Systems",
-    introText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "https://cdn2.stylecraze.com/wp-content/uploads/2013/06/african-women1.jpg",
+    company: "Company",
+    introText: "All round nice lady :)",
+    image: "http://www.ieeeaustsb.org/files/2017/05/placeholder-female-square.png",
     githubUrl: "#",
     twitterUrl: "#",
   },
-  {
-    name: "Jude Kenneth",
-    title: "Software Engineer",
-    company: "CroosOver Ltd.",
-    introText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "https://techcrunch.com/wp-content/uploads/2015/10/makinde-adeagbo_founder.jpg",
-    githubUrl: "#",
-    twitterUrl: "#",
-  }
 ];

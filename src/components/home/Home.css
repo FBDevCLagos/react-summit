@@ -165,6 +165,11 @@ svg g {
   margin: 15px auto;
 }
 
+.button.apply {
+  background: #282e64;
+  color: #ffffff;
+}
+
 .footer {
   padding: 15px 0;
 }

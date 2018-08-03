@@ -24,6 +24,14 @@ export default () => (
             twitterUrl={speaker.twitterUrl}
           />)
       }
+
+      <div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdVkvsWReh0zCJE3PJfmLm8Xomq36rXZZEJ-NweSRWXfq9g3Q/viewform"
+          className="button apply"
+          target="_blank"
+        > Apply to speak</a>
+      </div>
     </div>
   </div>
 );
