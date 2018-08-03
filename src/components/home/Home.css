@@ -187,6 +187,7 @@ svg g {
   text-align: center;
   position: fixed;
   min-height: 100%;
+  height: 100%;
   overflow: auto;
   width: 100%;
   right: -100%;
