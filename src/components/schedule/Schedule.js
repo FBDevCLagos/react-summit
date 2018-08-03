@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
 
+import schedule from './content/schedule';
+
 import './Schedule.css';
+
+const Event = ({ type, time, title, anchor }) => {
+  return (
+    <div className="event">
+      <div className="event__metadata">
+        {type && <span className="event__type">
+          {type}
+        </span> }
+        <span className="event__time">
+          {time}
+        </span>
+      </div>
+
+      <div className="event__details">
+        <span className="event__title">{title}</span>
+        {anchor && <span className="event__anchor">{anchor}</span> }
+      </div>
+    </div>
+  );
+};
 
 export default class Schedule extends Component {
   state = {
@@ -11,6 +33,18 @@ export default class Schedule extends Component {
     const { activeTab } = this.state;
 
     return activeTab === compareStr ? 'active' : '';
+  }
+
+  listEvents(events) {
+    return events.map(({ type, time, title, anchor }) => (
+      <Event
+        key={title}
+        type={type}
+        time={time}
+        title={title}
+        anchor={anchor}
+      />
+    ));
   }
 
   render () {
@@ -47,33 +81,11 @@ export default class Schedule extends Component {
           </div>
 
           <div className={`events ${this.makeActiveTab('primary')}`}>
-            <div className="event">
-              <div className="event__metadata">
-                <span className="time">
-                  11am - 11:15 am
-                </span>
-              </div>
+            { this.listEvents( schedule.firstDayEvents ) }
+          </div>
 
-              <div className="event__details">
-                <span className="event__title">Opening Remarks</span>
-              </div>
-            </div>
-
-            <div className="event">
-              <div className="event__metadata">
-                <span className="event__type">
-                  Beginner Workshop
-                </span>
-                <span className="event__time">
-                  11:15 am - 11:30 am
-                </span>
-              </div>
-
-              <div className="event__details">
-                <span className="event__anchor">Bolu Oluwagbesan</span>
-                <span className="event__title">Building awesome apps with React</span>
-              </div>
-            </div>
+          <div className={`events ${this.makeActiveTab('secondary')}`}>
+            { this.listEvents( schedule.secondDayEvents ) }
           </div>
         </div>
       </div>
