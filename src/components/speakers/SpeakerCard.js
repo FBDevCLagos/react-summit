@@ -21,16 +21,20 @@ export default ({
       <p className="speaker__title">{`${title}, ${company}`}</p>
       <p>{introText}</p>
       <div>
-        {githubUrl !== '#' && <a
-          className="github__icon"
-          href={githubUrl}
-          target="_blank"
-        />}
-        {twitterUrl !== '#' && <a
-          className="twitter__icon"
-          href={twitterUrl}
-          target="_blank"
-        />}
+        {
+          githubUrl && <a
+            className="github__icon"
+            href={githubUrl}
+            target="_blank"
+          />
+        }
+        {
+          twitterUrl && <a
+            className="twitter__icon"
+            href={twitterUrl}
+            target="_blank"
+          />
+        }
       </div>
     </div>
   </div>
