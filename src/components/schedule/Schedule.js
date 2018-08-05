@@ -56,6 +56,14 @@ export default class Schedule extends Component {
         </h2>
 
         <div className="side-panel__content">
+          <p>
+            React Summit will take place on the 19th and 20th of October 2018.
+            The details are being worked out and this section will be updated
+            with relevant information once it is available.
+          </p>
+        </div>
+
+        { false && <div className="side-panel__content">
           <div className="timelines">
             <p
               className={`timeline ${this.makeActiveTab('primary')}`}
@@ -87,7 +95,7 @@ export default class Schedule extends Component {
           <div className={`events ${this.makeActiveTab('secondary')}`}>
             { this.listEvents( schedule.secondDayEvents ) }
           </div>
-        </div>
+        </div> }
       </div>
     );
   }

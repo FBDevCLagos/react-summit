@@ -118,14 +118,20 @@ class Home extends Component {
                 width: introMessageWidth
               }}
             >
-              React Summit is a one-day community driven event aimed at
+              React Summit is a community driven event aimed at
               bringing together frontend developers who use React/Javascript
               or are hoping to learn more about it so as to foster deep,
               valuable discussions around what’s new, what’s possible and best
               practices.
             </p>
 
-            <a href="#" className="button"> Register</a>
+            <a
+              href="https://reactsummit2018.splashthat.com/"
+              className="button"
+              target="_blank"
+            >
+              Register
+            </a>
           </section>
 
           <section className="main__navigation">
@@ -139,9 +145,9 @@ class Home extends Component {
         </main>
 
         <footer className="footer">
-          <i className="fa fa-envelope-o social-icon"></i>
-          <i className="fa fa-twitter social-icon"></i>
-          <i className="fa fa-facebook social-icon"></i>
+          <p className="info">
+            React Summit is powered by Developer Circles Lagos
+          </p>
         </footer>
 
         <aside className={`side-panel ${panelActive ? 'active' : ''}`}>
