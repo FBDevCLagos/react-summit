@@ -9,7 +9,7 @@ export const sponsorsList = [
     name: "Andela",
     introText: "Andela helps companies quickly and confidently scale their software teams with world-class, full-time developers.",
     image: "https://pbs.twimg.com/profile_images/647544968777756672/-Ms_S6bh_400x400.png",
-    url: "https://terragongroup.com/"
+    url: "https://andela.com/"
   },
   {
     name: "Terragon Group",
