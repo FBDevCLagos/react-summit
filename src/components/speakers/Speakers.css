@@ -1,8 +1,8 @@
 #speakers {
     height: 100vh;
+    justify-content: flex-start;
     margin: 10px auto;
     overflow: scroll;
-    padding-bottom: 100px;
 }
 
 .speaker__wrapper {
@@ -25,6 +25,7 @@
 }
 
 .speaker__avatar > img {
+    filter: opacity(0.95);
     width: 100%;
     height: 100%;
 }
