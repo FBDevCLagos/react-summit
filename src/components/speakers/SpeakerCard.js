@@ -10,17 +10,17 @@ export default ({
   twitterUrl,
 }) => (
   <div className="speaker__wrapper">
-    <div className="speaker__avatar">
-      <img
-        src={image}
-        alt="speaker__image"
-      />
-    </div>
     <div className="speaker__details">
+      <div className="speaker__avatar">
+        <img
+          src={image}
+          alt="speaker__image"
+        />
+      </div>
       <h3 className="speaker__name">{name}</h3>
       <p className="speaker__title">{`${title}, ${company}`}</p>
-      <p>{introText}</p>
-      <div>
+      <div dangerouslySetInnerHTML={{__html: introText}}></div>
+      <div className="icon__wrapper">
         {
           githubUrl && <a
             className="github__icon"
