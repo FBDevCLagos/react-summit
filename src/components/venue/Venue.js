@@ -3,11 +3,10 @@ import { Map as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet';
 
 import './Venue.css';
 
-
 class Map extends Component {
   state = {
-    lat: 6.551430799999999,
-    lng: 3.3768400000000156,
+    lat: 6.521095,
+    lng: 3.369005,
     zoom: 13
   }
 
@@ -30,7 +29,7 @@ class Map extends Component {
         />
         <Marker position={position}>
           <Popup>
-            The Zone (Lagos, Nigeria)
+            Havilah Events Center (Lagos, Nigeria)
           </Popup>
         </Marker>
       </LeafletMap>
@@ -47,13 +46,13 @@ export default () => (
     <Map />
     <div className="side-panel__content">
       <h3>
-        The Zone,
-        Gbagada, Lagos
+        Havilah Events Center,
+        Yaba, Lagos
       </h3>
 
       <p>
-        The 2018 React Summit will take place at the Zone,
-        Plot 9 Gbagada express way besides UPS, Lagos.
+        The 2018 React Summit will take place at Havilah Events Center,
+        1/3 Ijaoye street by Igbobi-Sabe, Jibowu, Yaba, Lagos.
       </p>
     </div>
   </div>
