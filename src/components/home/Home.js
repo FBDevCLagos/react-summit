@@ -126,7 +126,7 @@ class Home extends Component {
             </p>
 
             <a
-              href="https://eventplog.com/ext/c/devclagos/e/reactsummit2018/register"
+              href="https://reactsummit2018.splashthat.com"
               className="button"
               target="_blank"
             >
