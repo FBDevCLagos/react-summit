@@ -17,6 +17,12 @@ export const sponsorsList = [
     image: "https://i1.wp.com/innovation-village.com/wp-content/uploads/2016/08/Terragon-Group-e1509456357983.jpg",
     url: "https://terragongroup.com/"
   },
+   {
+    name: "VanHack",
+    introText: "VanHack is a community of over 180,000 Software Developers, Designers and Digital Marketers who are ready to relocate. 90% of all jobs posted on VanHack get a Qualified Candidate in less than 24 hours.",
+    image: "https://disrupthr.co/wp-content/uploads/2018/04/VanHack-Logo-1.png",
+    url: "https://vanhack.com/"
+  },
   {
     name: "TechMeetupsNG",
     introText: "TechMeetupsNG has been setup to create a network of Tech communities around Nigeria.",
