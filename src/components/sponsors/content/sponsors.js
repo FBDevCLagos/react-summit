@@ -23,4 +23,10 @@ export const sponsorsList = [
     image: "https://i1.wp.com/techmeetupsng.com/wp-content/uploads/2018/07/cropped-TMN-Name-Logo-v3-small.png?fit=748%2C176",
     url: "http://techmeetupsng.com/"
   },
+  {
+    name: "VanHack",
+    introText: "VanHack is a community of over 180,000 Software Developers, Designers and Digital Marketers who are ready to relocate. 90% of all jobs posted on VanHack get a Qualified Candidate in less than 24 hours.",
+    image: "https://disrupthr.co/wp-content/uploads/2018/04/VanHack-Logo-1.png",
+    url: "https://vanhack.com/"
+  },
 ];

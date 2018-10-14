@@ -103,9 +103,15 @@ export const speakersList = [
   },
   {
     name: "Christian Nwamba",
+<<<<<<< HEAD
+    title: "Developer Advocate for the Next Billion Developers",
+    company: "",
+    introText: "",
+=======
     title: "Content Creator / Technical Reviewer",
     company: "Pusher",
-    introText: "",
+    introText: `<p>Developer Advocate for the Next Billion Developers.</p>`,
+>>>>>>> 615b554... add intro text for Chris
     image: "https://pbs.twimg.com/profile_images/725313461765427204/2Od92RM7_400x400.jpg",
     githubUrl: "https://github.com/christiannwamba",
     twitterUrl: "https://twitter.com/codebeast",
