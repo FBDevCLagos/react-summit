@@ -5,16 +5,17 @@ const shared = [
   },
   {
     time: '9:45 am - 10:00 am',
-    title: 'Opening Address',
+    title: 'Opening Address: The evolution of React JS',
     anchor: 'Innocent Amadi'
   },
   {
     time: '10:00 am – 10:40 pm',
     type: 'Keynote',
-    title: 'The Evolution of React JS',
+    title: 'JavaScript build systems',
+    anchor: 'Miguel Jimenez '
   },
   {
-    time: '1:00 pm - 2:00 pm',
+    time: '12:00 pm - 1:00 pm',
     title: 'Lunch',
   },
   {
@@ -37,28 +38,28 @@ const beginner = [
     anchor: 'Shedrack Akintayo'
   },
   {
-    time: '12:00 pm - 1:00 pm',
-    title: 'State Management Hierarchies in React',
+    time: '1:00 pm - 2:00 pm',
+    title: '10 things every React beginner should know.',
     type: 'Presentation',
     anchor: 'Timi Aiyemo'
   },
   {
     time: '2:00 pm - 2:30 pm',
-    title: 'Testing React Components: The good, the bad, the ugly',
+    title: 'React Testing Guide',
     type: 'Presentation',
     anchor: 'Ugonna Ofoegbu'
   },
   {
     time: '2:30 pm - 3:00 pm',
-    title: '15 things I learned the hard way when learning React JS',
+    title: 'Create React App is your best friend.',
     type: 'Presentation',
     anchor: 'Adewale Abati'
   },
   {
     time: '3:00 pm - 4:00 pm',
-    title: 'An introduction to Machine Learning with React and Tensorflow JS',
+    title: 'Moving from localhost to www: Deploying React Apps to Production',
     type: 'Workshop',
-    anchor: 'Ifeanyi Igwegbe'
+    anchor: 'Chidiebere Joshua'
   },
 ];
 
@@ -76,7 +77,7 @@ const advanced = [
     anchor: 'Kesiena Akpobome'
   },
   {
-    time: '12:00 pm - 1:00 pm',
+    time: '1:00 pm - 2:00 pm',
     title: 'Advanced React Patterns',
     type: 'Presentation',
     anchor: 'Kent C Dodds'
