@@ -90,7 +90,7 @@ export default class Schedule extends Component {
 
         <div className="side-panel__content">
           <p>
-            React Summit is scheduled for the 19th of October 2018
+            React Summit is scheduled for the 20th of October 2018
           </p>
 
           <div className="events active">

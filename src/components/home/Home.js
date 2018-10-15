@@ -116,13 +116,15 @@ class Home extends Component {
               className="main__intro-message"
               style={{
                 width: introMessageWidth
-              }}
-            >
+              }}>
               React Summit is a community driven event aimed at
               bringing together frontend developers who use React/Javascript
               or are hoping to learn more about it so as to foster deep,
               valuable discussions around what’s new, what’s possible and best
               practices.
+            </p>
+            <p>
+              The event takes place on 20th November, 2018.
             </p>
 
             <a
@@ -146,7 +148,7 @@ class Home extends Component {
 
         <footer className="footer">
           <p className="info">
-            React Summit is powered by Developer Circles Lagos
+            React Summit is powered by <a target="_blank" href="fb.com/groups/devclagos">Developer Circles Lagos</a>
           </p>
         </footer>
 
