@@ -11,7 +11,7 @@ const shared = [
   {
     time: '10:00 am – 10:40 pm',
     type: 'Keynote',
-    title: 'Metro (React Native Package Manager) and Jest',
+    title: 'JavaScript build systems',
     anchor: 'Miguel Jimenez'
   },
   {
