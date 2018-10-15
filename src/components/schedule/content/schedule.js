@@ -12,7 +12,7 @@ const shared = [
     time: '10:00 am – 10:40 pm',
     type: 'Keynote',
     title: 'JavaScript build systems',
-    anchor: 'Miguel Jimenez'
+    anchor: 'Miguel Jimenez '
   },
   {
     time: '12:00 pm - 1:00 pm',
