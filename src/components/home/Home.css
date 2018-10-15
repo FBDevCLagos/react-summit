@@ -1,3 +1,8 @@
+:root {
+  --white: #ffffff;
+  --blue-bg-color: #282e64;
+}
+
 .main, .header, .footer {
   transition-duration: 0.6s;
 }
@@ -74,7 +79,7 @@
 }
 
 .main__navigation a {
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
@@ -163,8 +168,8 @@ svg g {
 }
 
 .button {
-  background: #fff;
-  color: #282e64;
+  background: var(--white);
+  color: var(--blue-bg-color);
   border: 0;
   border-radius: 20px;
   cursor: pointer;
@@ -177,8 +182,8 @@ svg g {
 }
 
 .button.apply {
-  background: #282e64;
-  color: #ffffff;
+  background: var(--blue-bg-color);
+  color: var(--white);
 }
 
 .footer {
@@ -188,6 +193,10 @@ svg g {
 .footer .info {
   font-size: 12px;
   opacity: 0.5;
+}
+
+.footer a {
+  color: var(--white);
 }
 
 @media screen and (min-width: 768px) {
@@ -201,10 +210,10 @@ svg g {
 }
 
 .side-panel {
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
-  color: #282e64;
+  color: var(--blue-bg-color);
   text-align: center;
   position: fixed;
   min-height: 100%;
