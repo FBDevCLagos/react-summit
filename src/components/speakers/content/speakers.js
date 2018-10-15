@@ -43,36 +43,6 @@ export const speakersList = [
     twitterUrl: "https://twitter.com/kentcdodds",
   },
   {
-    name: "Barbara Mbanefo",
-    title: "Software Engineer",
-    company: "Facebook",
-    introText: `
-      <p>
-        Barbara Mbanefo works with the Facebook Engineering team as a Mobile
-        Software Engineer in the Lightweight Interfaces (LWI) team in the Ads
-        Growth Org. She developers software for the Facebook iPhone app that
-        enables businesses to connect with the right audiences, and obtain
-        meaningful results Using Objective-C, PHP, GraphQL and a few other
-        internal tools.
-      </p>
-
-      <p>
-        Barbara’s over 15 years experience as a Senior Software Engineer
-        starts in 2003 with companies like Siemens VDO, Motorola and Orange
-        among companies in her prestigious CV.
-      </p>
-
-      <p>
-        In her career span, Barbara has bagged over 6 engineering awards,
-        picked up three international languages and revisited her love
-        for Nigerian jollof :)
-      </p>
-    `,
-    image: "https://media.licdn.com/dms/image/C4E03AQGN4AgEb6rWzg/profile-displayphoto-shrink_200_200/0?e=1540425600&v=beta&t=uGl8gf6_ZS7EIbILWbyMiN4LgddEPbVaSHUTlutoggk",
-    githubUrl: "",
-    twitterUrl: "https://twitter.com/barbarambanefo",
-  },
-  {
     name: "Miguel Jimenez Esun",
     title: "Software Engineer",
     company: "Facebook",
