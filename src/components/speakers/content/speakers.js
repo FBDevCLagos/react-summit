@@ -71,11 +71,6 @@ export const speakersList = [
   },
   {
     name: "Christian Nwamba",
-<<<<<<< HEAD
-    title: "Content Creator / Technical Reviewer",
-    company: "Pusher",
-    introText: `<p>Developer Advocate for the Next Billion Developers.</p>`,
-=======
     title: "Developer and Developer Advocate, Author",
     company: "Cloudinary & Pusher",
     introText: `
@@ -87,7 +82,6 @@ export const speakersList = [
         Christian will be taking us through a hands-on workshop with live examples on how to measure and optimize performance in React apps.
       </p>
     `,
->>>>>>> add speakers bios
     image: "https://pbs.twimg.com/profile_images/725313461765427204/2Od92RM7_400x400.jpg",
     githubUrl: "https://github.com/christiannwamba",
     twitterUrl: "https://twitter.com/codebeast",
