@@ -3,16 +3,20 @@
   display: flex;
   margin-bottom: 15px;
   justify-content: space-between;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .timeline {
+  background-color: #fff;
   border-right: 3px solid #282e64;
   border-left: 3px solid #282e64;
   cursor: pointer;
   margin: 0;
   padding: 15px;
   flex-grow: 1;
+  text-transform: capitalize;
 }
 
 .timeline.active {

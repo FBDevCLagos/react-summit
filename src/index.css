@@ -41,17 +41,3 @@ body {
   height: 100%;
   overflow: hidden;
 }
-
-
-/* TODO: Remove the following lines when the schedule and speaker sections are updated */
-/* ************************************************************* */
-
-#speakers,
-#schedule {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* ************************************************************* */
