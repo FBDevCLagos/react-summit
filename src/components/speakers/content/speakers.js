@@ -62,12 +62,10 @@ export const speakersList = [
       </p>
 
       <p>
-        Miguel joins us from Facebook’s office in the UK to lead the keynote on
-        “The evolution of ReactJS and single page
-        applications - the past, the present, the future.”
+        Miguel joins us in person from Facebook’s office in the UK to lead the keynote on Metro - a tool made by Facebook to build projects in React Native. Miguel promises to take us through what makes it unique and what to expect from it during the upcoming months.
       </p>
     `,
-    image: "https://avatars1.githubusercontent.com/u/829269?s=460&v=4",
+    image: "https://farm2.staticflickr.com/1960/45296789462_814a23730e.jpg",
     githubUrl: "https://github.com/mjesun",
     twitterUrl: "https://twitter.com/mjesun",
   },
