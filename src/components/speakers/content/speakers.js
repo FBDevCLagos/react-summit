@@ -116,6 +116,7 @@ export const speakersList = [
     `,
     image: "https://farm2.staticflickr.com/1976/30405249757_a10b07b2bd.jpg",
     githubUrl: "https://github.com/robert_thas",
+    twitterUrl: "https://twitter.com/robert_thas"
   },
   {
     name: "Kesiena Akpobome",
@@ -130,7 +131,7 @@ export const speakersList = [
       </p>
     `,
     image: "https://farm2.staticflickr.com/1957/43530226800_9c3fefd76c.jpg",
-    githubUrl: "https://github.com/robert_thas",
+    githubUrl: "https://github.com/andela-kakpobome",
   },
   {
     name: "Adewale Abati",
@@ -148,7 +149,8 @@ export const speakersList = [
       </p>
     `,
     image: "https://farm2.staticflickr.com/1939/44622238534_186f2892f1.jpg",
-    githubUrl: "https://github.com/robert_thas",
+    twitterUrl: "https://twitter.com/Ace_KYD",
+    githubUrl: "https://github.com/acekyd",
   },
   {
     name: "Timi Aiyemo",
@@ -163,6 +165,7 @@ export const speakersList = [
       </p>
     `,
     image: "https://farm2.staticflickr.com/1977/44432146395_057eb4819e.jpg",
+    githubUrl: "https://github.com/cozzbie",
     twitterUrl: "https://twitter.com/cozzbie",
   },
   {
