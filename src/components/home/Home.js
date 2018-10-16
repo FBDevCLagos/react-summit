@@ -124,7 +124,7 @@ class Home extends Component {
               practices.
             </p>
             <p>
-              The event takes place on 20th November, 2018.
+              The conference takes place on the 20th of October, 2018. 9am - 4pm.
             </p>
 
             <a
