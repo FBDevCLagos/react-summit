@@ -90,7 +90,7 @@ const advanced = [
   },
   {
     time: '2:30 pm - 3:00 pm',
-    title: 'Advanced image Lazy loading techniques',
+    title: 'Responsive Images for React Apps',
     type: 'Workshop',
     anchor: 'Christian Nwamba '
   },
