@@ -98,7 +98,7 @@ export const speakersList = [
        Ugonna's talk will cover why we test components, what exactly we test for, how to test for these things, down to mocking methods and events. 
       </p>
     `,
-    image: "https://farm2.staticflickr.com/1903/45344502861_ac80a67ca9_k.jpg",
+    image: "https://farm2.staticflickr.com/1919/43585619300_3af4f51531.jpg",
     githubUrl: "https://github.com/ugonnathelma",
     twitterUrl: "https://twitter.com/ugonna_t",
   },
@@ -180,7 +180,7 @@ export const speakersList = [
       </p>
     `,
     image: "https://farm2.staticflickr.com/1954/30406297357_529abce77d.jpg",
-    githubUrl: "https://github.com/andela-fadebayo",
+    githubUrl: "https://github.com/ceemion",
     twitterUrl: "https://twitter.com/ceemion"
   },
 ];
