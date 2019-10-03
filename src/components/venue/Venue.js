@@ -5,10 +5,10 @@ import './Venue.css';
 
 class Map extends Component {
   state = {
-    lat: 6.521095,
-    lng: 3.369005,
+    lat: 6.5514308,
+    lng: 3.37684,
     zoom: 13
-  }
+  };
 
   componentDidMount() {
     // Todo: find an alternative way to implement this behaviour
@@ -29,7 +29,7 @@ class Map extends Component {
         />
         <Marker position={position}>
           <Popup>
-            Havilah Events Center (Lagos, Nigeria)
+            Zone Tech Park (Lagos, Nigeria)
           </Popup>
         </Marker>
       </LeafletMap>
@@ -40,19 +40,17 @@ class Map extends Component {
 export default () => (
   <div id="venue">
     <h2 className="side-panel__header-title">
-      <i className="fa fa-map-marker"></i>
+      <i className="fa fa-map-marker" />
       Venue
     </h2>
     <Map />
     <div className="side-panel__content">
       <h3>
-        Havilah Events Center,
-        Yaba, Lagos
+        Zone Tech Park (Lagos, Nigeria)
       </h3>
 
       <p>
-        The 2018 React Summit will take place at Havilah Events Center,
-        1/3 Ijaoye street by Igbobi-Sabe, Jibowu, Yaba, Lagos.
+        React Summit 2019 will hold at Zone Tech Park, Plot 9 Gbagada Industrial Scheme, Beside UPS, Gbagada Expressway, Lagos, Nigeria.
       </p>
     </div>
   </div>
