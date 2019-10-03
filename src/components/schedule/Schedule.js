@@ -88,32 +88,34 @@ export default class Schedule extends Component {
           Schedule
         </h2>
 
-        <div className="side-panel__content">
-          <p>
-            React Summit is scheduled for the 20th of October 2018
-          </p>
+        <div>Sit back, hold tight! We're cooking something good :)</div>
 
-          <div className="events active">
-            { this.listEvents(schedule.events.shared) }
-          </div>
+        {/*<div className="side-panel__content">*/}
+          {/*<p>*/}
+            {/*React Summit is scheduled for the 30th of November 2019*/}
+          {/*</p>*/}
 
-          <h2>
-            Presentations && Workshops
-          </h2>
+          {/*<div className="events active">*/}
+            {/*{ this.listEvents(schedule.events.shared) }*/}
+          {/*</div>*/}
 
-          <TimelineTab
-            makeActiveTab={this.makeActiveTab}
-            onClick={this.handleClick}
-          />
+          {/*<h2>*/}
+            {/*Presentations && Workshops*/}
+          {/*</h2>*/}
 
-          <div className={`events ${this.makeActiveTab('beginner')}`}>
-            { this.listEvents( schedule.events.beginner ) }
-          </div>
+          {/*<TimelineTab*/}
+            {/*makeActiveTab={this.makeActiveTab}*/}
+            {/*onClick={this.handleClick}*/}
+          {/*/>*/}
 
-          <div className={`events ${this.makeActiveTab('advanced')}`}>
-            { this.listEvents( schedule.events.advanced ) }
-          </div>
-        </div>
+          {/*<div className={`events ${this.makeActiveTab('beginner')}`}>*/}
+            {/*{ this.listEvents( schedule.events.beginner ) }*/}
+          {/*</div>*/}
+
+          {/*<div className={`events ${this.makeActiveTab('advanced')}`}>*/}
+            {/*{ this.listEvents( schedule.events.advanced ) }*/}
+          {/*</div>*/}
+        {/*</div>*/}
       </div>
     );
   }
