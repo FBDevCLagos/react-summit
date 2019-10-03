@@ -32,7 +32,7 @@ const sidePanelComponents = {
   venue: Venue,
   sponsors: Sponsors,
   schedule: Schedule
-}
+};
 
 class Home extends Component {
   state = {
@@ -41,7 +41,7 @@ class Home extends Component {
     introMessageWidth: "100%",
     panelActive: false,
     activeContent: null
-  }
+  };
 
   componentDidMount() {
     let bgColor = pickBg();
@@ -64,14 +64,14 @@ class Home extends Component {
       activeContent: e.target.dataset.activePanel,
       introMessageWidth: "70%"
     });
-  }
+  };
 
   closePanel = () => {
     this.setState({
       panelActive: false,
       introMessageWidth: "100%"
     });
-  }
+  };
 
   showActivePanelContent() {
     const { activeContent } = this.state;
@@ -109,7 +109,7 @@ class Home extends Component {
             <Logo backgroundColor={bg} />
 
             <h1 className="main__header-title">
-              Get Ready for React Summit 2018
+              React Summit 2019 is coming!!!
             </h1>
 
             <p
@@ -124,11 +124,11 @@ class Home extends Component {
               practices.
             </p>
             <p>
-              The conference takes place on the 20th of October, 2018. 9am - 4pm.
+              The conference takes place on the 30th of November, 2019 from 9am - 4pm.
             </p>
 
             <a
-              href="https://reactsummit2018.splashthat.com"
+              href="#" // need something like https://reactsummit2018.splashthat.com for registrations
               className="button"
               target="_blank"
             >
