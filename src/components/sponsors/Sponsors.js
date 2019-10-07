@@ -10,16 +10,17 @@ export default () => (
       Sponsors
     </h2>
     <div className="side-panel__content sponsors">
-      {
-        sponsorsList.map((sponsor, index) =>
-          <SponsorCard
-            key={`sponsor-${index}`}
-            name={sponsor.name}
-            introText={sponsor.introText}
-            image={sponsor.image}
-            url={sponsor.url}
-          />)
-      }
+      <div>Our amazing sponsors will be listed here.</div>
+      {/*{*/}
+        {/*sponsorsList.map((sponsor, index) =>*/}
+          {/*<SponsorCard*/}
+            {/*key={`sponsor-${index}`}*/}
+            {/*name={sponsor.name}*/}
+            {/*introText={sponsor.introText}*/}
+            {/*image={sponsor.image}*/}
+            {/*url={sponsor.url}*/}
+          {/*/>)*/}
+      {/*}*/}
     </div>
   </div>
 );
