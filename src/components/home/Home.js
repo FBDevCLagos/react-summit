@@ -128,7 +128,7 @@ class Home extends Component {
             </p>
 
             <a
-              href="#" // need something like https://reactsummit2018.splashthat.com for registrations
+              href="https://reactsummit2019.splashthat.com"
               className="button"
               target="_blank"
             >
