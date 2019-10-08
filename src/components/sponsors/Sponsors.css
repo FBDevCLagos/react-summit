@@ -1,5 +1,6 @@
 #sponsors {
   height: 100vh;
+  justify-content: flex-start;
   margin: 10px auto;
   overflow: scroll;
   padding-bottom: 50px;
