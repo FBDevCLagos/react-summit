@@ -148,7 +148,7 @@ class Home extends Component {
 
         <footer className="footer">
           <p className="info">
-            React Summit is powered by <a target="_blank" href="fb.com/groups/devclagos">Developer Circles Lagos</a>
+            React Summit is powered by <a target="_blank" href="https://fb.com/groups/devclagos">Developer Circles Lagos</a>
           </p>
         </footer>
 
